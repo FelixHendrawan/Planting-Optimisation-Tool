@@ -43,6 +43,6 @@ def apply_slope_rules(rotated_grid_path: str, slope_raster_path: str, output_pat
 
     # Save adjusted planting grid
     adjusted_points.to_file(output_path)
-    # print(f"Original points: {len(planting_points)}")
-    # print(f"Remaining points: {len(adjusted_points)}")
     print(f"Adjusted planting points saved to {output_path}")
+
+    return len(adjusted_points)
