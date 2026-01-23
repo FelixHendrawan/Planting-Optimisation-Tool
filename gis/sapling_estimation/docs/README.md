@@ -1,6 +1,7 @@
 # Overview
 This document outlines the structure of the Sapling Estimator Feature.
 It is designed to support the Planting Optimisation Tool by estimating the maximum number of saplings that can be planted on a farm, while considering terrain features such as slope and rotation.
+
 ```
 
 gis/
@@ -8,8 +9,12 @@ gis/
 ├── sapling_estimation/
 │   │
 │   ├── docs/
+│   │   │
+│   │   ├── images/
+│   │   │   └── flowchart.png   # Sapling Estimator flowchart
+│   │   │
 │   │   ├── feature_summary.md  # Sapling Estimator overview
-│   │   ├── flowchart.png       # Sapling Estimator flowchart
+│   │   ├── output_schema.md    # Sapling Estimator output schema
 │   │   └── README.md           # Sapling Estimator structure
 │   │
 │   ├── data/
